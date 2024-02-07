@@ -1,0 +1,3 @@
+DEFAULT_ERROR = 'mse_weighted_sum'
+DEFAULT_OFFSET = 0
+BASE_SOHR = 1.5

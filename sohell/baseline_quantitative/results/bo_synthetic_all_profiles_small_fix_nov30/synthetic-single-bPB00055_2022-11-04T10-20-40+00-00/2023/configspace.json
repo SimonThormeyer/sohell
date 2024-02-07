@@ -1,0 +1,110 @@
+{
+  "hyperparameters": [
+    {
+      "name": "amb_temp_celsius",
+      "type": "constant",
+      "value": 34.00619821028513
+    },
+    {
+      "name": "bat_cell_cap",
+      "type": "constant",
+      "value": 66.0
+    },
+    {
+      "name": "c1",
+      "type": "constant",
+      "value": 260425.6367885171
+    },
+    {
+      "name": "cell_temp_init",
+      "type": "constant",
+      "value": 42.73085952667958
+    },
+    {
+      "name": "cycles",
+      "type": "constant",
+      "value": 1
+    },
+    {
+      "name": "ir_a",
+      "type": "constant",
+      "value": 0.00010204950976271327
+    },
+    {
+      "name": "ir_b",
+      "type": "constant",
+      "value": 0.15037223421083382
+    },
+    {
+      "name": "ir_c",
+      "type": "constant",
+      "value": 0.0018074206745973434
+    },
+    {
+      "name": "ir_d",
+      "type": "constant",
+      "value": 0.09907953391977599
+    },
+    {
+      "name": "ir_e",
+      "type": "constant",
+      "value": 0.9997140818347747
+    },
+    {
+      "name": "no_cells",
+      "type": "constant",
+      "value": 14
+    },
+    {
+      "name": "profile_offset",
+      "type": "constant",
+      "value": 0
+    },
+    {
+      "name": "r1",
+      "type": "constant",
+      "value": 0.014556780726521404
+    },
+    {
+      "name": "soc_init",
+      "type": "uniform_float",
+      "log": false,
+      "lower": 3.0,
+      "upper": 97.0,
+      "default": 50.0,
+      "q": null
+    },
+    {
+      "name": "soc_max",
+      "type": "constant",
+      "value": 98
+    },
+    {
+      "name": "soc_min",
+      "type": "constant",
+      "value": 2
+    },
+    {
+      "name": "sohc_init",
+      "type": "uniform_float",
+      "log": false,
+      "lower": 45.0,
+      "upper": 80.0,
+      "default": 62.5,
+      "q": null
+    },
+    {
+      "name": "sohr_init",
+      "type": "uniform_float",
+      "log": false,
+      "lower": 1.0,
+      "upper": 3.0,
+      "default": 2.0,
+      "q": null
+    }
+  ],
+  "conditions": [],
+  "forbiddens": [],
+  "python_module_version": "0.6.1",
+  "json_format_version": 0.4
+}

@@ -1,0 +1,9 @@
+version: '3.3'
+services:
+  labeling:
+    build:
+      context: ../../../../src
+      dockerfile: learning/bayesian_regression/labeling/Dockerfile
+    platform: linux/amd64
+#    volumes:
+#      - ../../../../src/learning/bayesian_regression/labeling:/app/learning/bayesian_regression/labeling

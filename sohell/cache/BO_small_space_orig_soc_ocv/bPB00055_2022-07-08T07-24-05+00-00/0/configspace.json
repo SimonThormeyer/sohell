@@ -1,0 +1,146 @@
+{
+  "hyperparameters": [
+    {
+      "name": "amb_temp_celsius",
+      "type": "uniform_float",
+      "log": false,
+      "lower": 35.0,
+      "upper": 55.0,
+      "default": 45.0,
+      "q": null
+    },
+    {
+      "name": "bat_cell_cap",
+      "type": "constant",
+      "value": 66.0
+    },
+    {
+      "name": "c1",
+      "type": "uniform_float",
+      "log": false,
+      "lower": 100000.0,
+      "upper": 2000000.0,
+      "default": 1050000.0,
+      "q": null
+    },
+    {
+      "name": "cell_temp_init",
+      "type": "uniform_float",
+      "log": false,
+      "lower": 43.0,
+      "upper": 47.0,
+      "default": 45.0,
+      "q": null
+    },
+    {
+      "name": "cycles",
+      "type": "constant",
+      "value": 1
+    },
+    {
+      "name": "ir_a",
+      "type": "uniform_float",
+      "log": false,
+      "lower": 0.0001,
+      "upper": 0.01,
+      "default": 0.00505,
+      "q": null
+    },
+    {
+      "name": "ir_b",
+      "type": "uniform_float",
+      "log": false,
+      "lower": 0.01,
+      "upper": 0.2,
+      "default": 0.105,
+      "q": null
+    },
+    {
+      "name": "ir_c",
+      "type": "uniform_float",
+      "log": false,
+      "lower": 1e-05,
+      "upper": 0.01,
+      "default": 0.005005,
+      "q": null
+    },
+    {
+      "name": "ir_d",
+      "type": "uniform_float",
+      "log": false,
+      "lower": 0.01,
+      "upper": 0.1,
+      "default": 0.055,
+      "q": null
+    },
+    {
+      "name": "ir_e",
+      "type": "uniform_float",
+      "log": false,
+      "lower": 0.01,
+      "upper": 1.0,
+      "default": 0.505,
+      "q": null
+    },
+    {
+      "name": "no_cells",
+      "type": "constant",
+      "value": 14
+    },
+    {
+      "name": "profile_offset",
+      "type": "constant",
+      "value": 0
+    },
+    {
+      "name": "r1",
+      "type": "uniform_float",
+      "log": false,
+      "lower": 0.0001,
+      "upper": 0.02,
+      "default": 0.01005,
+      "q": null
+    },
+    {
+      "name": "soc_init",
+      "type": "uniform_float",
+      "log": false,
+      "lower": 3.0,
+      "upper": 97.0,
+      "default": 50.0,
+      "q": null
+    },
+    {
+      "name": "soc_max",
+      "type": "constant",
+      "value": 98
+    },
+    {
+      "name": "soc_min",
+      "type": "constant",
+      "value": 2
+    },
+    {
+      "name": "sohc_init",
+      "type": "uniform_float",
+      "log": false,
+      "lower": 45.0,
+      "upper": 80.0,
+      "default": 62.5,
+      "q": null
+    },
+    {
+      "name": "sohr_init",
+      "type": "uniform_float",
+      "log": false,
+      "lower": 1.0,
+      "upper": 3.0,
+      "default": 2.0,
+      "q": null
+    }
+  ],
+  "conditions": [],
+  "forbiddens": [],
+  "python_module_version": "0.6.1",
+  "json_format_version": 0.4
+}
