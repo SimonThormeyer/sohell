@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "sohell"
+version = "0.1.0"
+description = ""
+authors = ["Simon Thormeyer <simonthormeyer@gmail.com>"]
+readme = "README.md"
+packages = [
+    { include = "sohell" },
+]
+
+[tool.poetry.dependencies]
+python = "3.11.*"
+cpp-betterpack = {path = "sohell/simulator"}
+numpy = "1.23.5"
+scikit-learn = "1.2.2"
+typed-argument-parser = "1.8.0"
+pandas = "2.0.2"
+matplotlib = "3.7.1"
+tqdm = "4.65.0"
+brokenaxes = "0.5.0"
+smac = "2.0.2"
+julia = "0.6.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
