@@ -37,4 +37,4 @@ Run SoHELL baseline evaluation for real data
 poetry run python -m bo_evaluation --name_prefix qualitative_no_smoothing --without_smoothing --db_data --bo_result_dir cache/BO_small_space_orig_soc_ocv --doublets
 ```
 
-Note: reproducing the BO results 
+**Note**: reproducing the baseline results from scratch can be difficult to perform, it is recommended to use the Dockerization provided in `sohell/baseline`.
