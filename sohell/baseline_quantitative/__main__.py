@@ -3,9 +3,9 @@ import os
 from typing import Literal
 from tap import Tap
 
-from experiment_utils.synthetic_cycles import get_synthetic_cycles_from_profile, get_synthetic_cycles
-from labeling.cycle_finder import CycleFinder
-from labeling.labeler import Labeler, LabelingPolicy, DEFAULT_ERROR
+from sohell.experiment_utils.synthetic_cycles import get_synthetic_cycles_from_profile, get_synthetic_cycles
+from sohell.baseline.cycle_finder import CycleFinder
+from sohell.baseline.labeler import Labeler, LabelingPolicy, DEFAULT_ERROR
 
 logger = logging.getLogger()
 logger.setLevel(logging.INFO)

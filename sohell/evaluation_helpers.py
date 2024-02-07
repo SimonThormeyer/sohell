@@ -10,7 +10,7 @@ from sklearn.metrics import mean_squared_error, mean_absolute_error
 from sklearn.model_selection import KFold
 
 from bayesian_regression import posterior_predictive, fit, expand, log_marginal_likelihood
-from labeling.cycle_finder import CycleData
+from baseline.cycle_finder import CycleData
 
 logger = logging.getLogger(__name__)
 

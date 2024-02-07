@@ -10,7 +10,7 @@ from tqdm import tqdm
 
 from sohell.common import celsius_to_kelvin, kelvin_to_celsius
 from .parameter_set import SimulationParameterSet
-from sohell.labeling.cycle_finder import CycleData, CycleTuple, DataBlock
+from sohell.baseline.cycle_finder import CycleData, CycleTuple, DataBlock
 from ..constants import DEFAULT_OFFSET
 from ..utils import load_parameters
 

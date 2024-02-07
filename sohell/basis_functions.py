@@ -8,7 +8,7 @@ from numpy.polynomial import Polynomial
 from scipy.integrate import cumulative_trapezoid
 
 from cycle_plotting import CyclesPlotter
-from labeling.cycle_finder import CycleData
+from baseline.cycle_finder import CycleData
 
 lower_bound = 53.0  # 53.0  # for synthetic data 52 # for data of bp55
 upper_bound = 55.5  # 55.5  # for synthetic data 55 # for data of bp55

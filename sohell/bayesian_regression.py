@@ -3,10 +3,10 @@ import logging
 import numpy as np
 from tqdm import tqdm
 
-from labeling.cycle_finder import CycleData
+from baseline.cycle_finder import CycleData
 from typing import Callable
 
-from labeling.utils import load_parameters
+from baseline.utils import load_parameters
 
 logger = logging.getLogger(__name__)
 

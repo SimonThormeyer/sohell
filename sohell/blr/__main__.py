@@ -19,8 +19,8 @@ from sohell.cycle_plotting import CyclesPlotter
 from sohell.evaluation_helpers import plot_predictions_vs_actual_values, plot_feature_correlation_matrix, \
     plot_current_profiles, plot_log_evidence_of_design_matrix_candidates
 from sohell.experiment_utils.synthetic_cycles import get_synthetic_cycles
-from sohell.labeling.cycle_finder import CycleFinder
-from sohell.labeling.utils import load_parameters
+from sohell.baseline.cycle_finder import CycleFinder
+from sohell.baseline.utils import load_parameters
 
 logger = logging.getLogger()
 logger.setLevel(logging.INFO)

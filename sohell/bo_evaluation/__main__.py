@@ -15,10 +15,10 @@ from tap import Tap
 from sohell.baseline_quantitative.trial_evaluation import load_trajectories, get_mse_at_runtime
 from sohell.evaluation_helpers import FONT_SIZE, plot_histogram
 from sohell.experiment_utils.synthetic_cycles import get_synthetic_cycles, get_labels_of_synthetic_cycles_from_parameters_list
-from sohell.labeling import label_evaluation
-from sohell.labeling.cycle_finder import CycleFinder, CycleData
-from sohell.labeling.label_smoothening.label_smoothening import smoothen_labels
-from sohell.labeling.utils import load_parameters
+from sohell.baseline import label_evaluation
+from sohell.baseline.cycle_finder import CycleFinder, CycleData
+from sohell.baseline.label_smoothening.label_smoothening import smoothen_labels
+from sohell.baseline.utils import load_parameters
 
 logger = logging.getLogger()
 logger.setLevel(logging.INFO)

@@ -7,8 +7,8 @@ from typing import Any
 from tqdm import tqdm
 
 from sohell.experiment_utils.label_loading import load_intensifier, load_run_history
-from sohell.labeling.cycle_finder import CycleData
-from sohell.labeling.simulation_utils.parameter_set import SimulationParameterSet, ReducedSimulationParameterSet
+from sohell.baseline.cycle_finder import CycleData
+from sohell.baseline.simulation_utils.parameter_set import SimulationParameterSet, ReducedSimulationParameterSet
 
 
 def load_trial_data(directory: str, cycle_data: CycleData, true_mean_sohc: int | None = None, seed: int | None = None):
