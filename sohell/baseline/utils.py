@@ -1,8 +1,8 @@
 import json
 
-from experiment_utils.label_loading import load_intensifier, load_run_history
-from labeling.cycle_finder import CycleData
-from labeling.simulation_utils.parameter_set import SimulationParameterSet
+from sohell.experiment_utils.label_loading import load_intensifier, load_run_history
+from sohell.baseline.cycle_finder import CycleData
+from sohell.baseline.simulation_utils.parameter_set import SimulationParameterSet
 
 
 def load_parameters(directory, cycle_data: CycleData, seed: int | None = None) -> SimulationParameterSet:

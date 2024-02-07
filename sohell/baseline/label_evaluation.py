@@ -5,11 +5,11 @@ import numpy as np
 import pandas as pd
 from matplotlib import pyplot as plt
 
-from labeling.constants import DEFAULT_OFFSET
-from labeling.cycle_finder import CycleData, CycleTuple
-from labeling.labeler import Labeler
-from labeling.simulation_utils.parameter_set import SimulationParameterSet
-from labeling.simulation_utils.simulator import Simulator
+from .constants import DEFAULT_OFFSET
+from .cycle_finder import CycleData, CycleTuple
+from .labeler import Labeler
+from .simulation_utils.parameter_set import SimulationParameterSet
+from .simulation_utils.simulator import Simulator
 
 VOLTAGE_SENSOR_RESOLUTION = 3e-2  # 30 mV
 TEMPERATURE_SENSOR_RESOLUTION = 1  # 1 Kelvin

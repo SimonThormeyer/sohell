@@ -20,10 +20,9 @@ from smac import Scenario
 from smac.main.config_selector import ConfigSelector
 from tqdm import tqdm
 
-from basis_functions import IntegralExtractor
-from bayesian_regression import expand, fit, posterior_predictive
-from experiment_utils.label_loading import load_intensifier, load_run_history
-from experiment_utils.synthetic_cycles import get_synthetic_cycles_from_profile, \
+from sohell.basis_functions import IntegralExtractor
+from sohell.bayesian_regression import expand, fit, posterior_predictive
+from sohell.experiment_utils.synthetic_cycles import get_synthetic_cycles_from_profile, \
     get_labels_of_synthetic_cycles_from_profile
 from .constants import DEFAULT_ERROR, DEFAULT_OFFSET, BASE_SOHR
 from .cycle_finder import CycleData, CycleTuple, CycleFinder

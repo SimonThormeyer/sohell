@@ -14,7 +14,7 @@ import pytz
 from pandas import Timedelta
 from tqdm import tqdm
 
-from find_cycles import detect_cycles
+from ..find_cycles import detect_cycles
 
 logger = logging.getLogger(__name__)
 

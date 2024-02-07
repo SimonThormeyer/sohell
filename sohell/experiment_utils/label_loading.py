@@ -2,8 +2,7 @@ import json
 import os
 from typing import Any
 
-from labeling.cycle_finder import CycleData
-from labeling.simulation_utils.parameter_set import SimulationParameterSet
+from sohell.baseline.cycle_finder import CycleData
 
 
 def _load_label_file(file_name, directory, cycle_data: CycleData, seed: int | None = None) -> dict[str, Any]:

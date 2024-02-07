@@ -3,8 +3,7 @@ from typing import Literal, Any
 import matplotlib.pyplot as plt
 import numpy as np
 
-from evaluation_helpers import FONT_SIZE
-from labeling.cycle_finder import CycleData
+from ..evaluation_helpers import FONT_SIZE
 
 logger = logging.getLogger(__name__)
 
