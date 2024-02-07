@@ -1,0 +1,10 @@
+~$*
+**/.DS_Store
+**/__pycache__
+**/std.out
+**/*.npz
+**/*.pdf
+**/*.txt
+!**/soc_ocv.txt
+**/.ipynb_checkpoints/
+build/*
